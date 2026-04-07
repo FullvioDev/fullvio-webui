@@ -125,11 +125,11 @@ if 'cuda_error' in locals():
 
 SRC_LOG_LEVELS = {}  # Legacy variable, do not remove
 
-WEBUI_NAME = os.environ.get('WEBUI_NAME', 'Open WebUI')
-if WEBUI_NAME != 'Open WebUI':
-    WEBUI_NAME += ' (Open WebUI)'
+WEBUI_NAME = os.environ.get('WEBUI_NAME', 'Fullvio WebUI')
+if WEBUI_NAME != 'Fullvio WebUI':
+    WEBUI_NAME += ' ( WebUI)'
 
-WEBUI_FAVICON_URL = 'https://openwebui.com/favicon.png'
+WEBUI_FAVICON_URL = 'https://github.com/84591486748a47bde1f01f355963135c9561269/images/blob/main/cf-access/favicon.png'
 
 TRUSTED_SIGNATURE_KEY = os.environ.get('TRUSTED_SIGNATURE_KEY', '')
 
